@@ -1,15 +1,3 @@
-include("sh_init.lua")
-include("cl_player_extension.lua")
-include("vgui/DPointShopMenu.lua")
-include("vgui/DPointShopItem.lua")
-include("vgui/DPointShopPreview.lua")
-include("vgui/DPointShopUnbox.lua")
-include("vgui/DPointShopUnboxItem.lua")
-include("vgui/DPointShopColorChooser.lua")
-include("vgui/DPointShopGivePoints.lua")
-include("vgui/DPointShopGiveItem.lua")
-include("vgui/DPointShopBodygroupChooser.lua")
-
 PS.ShopMenu = nil
 PS.ClientsideModels = {}
 PS.Cache = {}
