@@ -1,7 +1,7 @@
 if SERVER then
-    include "pointshop/sv_init.lua"
+    include("pointshop/sv_init.lua")
 else
-    include "pointshop/cl_init.lua"
+    include("pointshop/cl_init.lua")
 end
 
 PS:Initialize()

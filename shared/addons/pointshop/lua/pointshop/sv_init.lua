@@ -1,11 +1,6 @@
---[[
-	pointshop/sv_init.lua
-	first file included serverside.
-]]
---
-include"sh_init.lua"
-include"sv_player_extension.lua"
-include"sv_manifest.lua"
+include("sh_init.lua")
+include("sv_player_extension.lua")
+include("sv_manifest.lua")
 
 function PS:LoadSounds()
     local sounds = {"case_tick", "case_opened"}
